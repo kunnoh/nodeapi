@@ -1,0 +1,34 @@
+{
+    "name": "nodeapi",
+    "version": "1.0.0",
+    "description": "nodejs ap",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "start": "node index.js",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix .",
+        "format": "prettier --check .",
+        "format:write": "prettier --write .",
+        "test": "npm test"
+    },
+    "keywords": [
+        "api",
+        "nodejs",
+        "rest",
+        "restful"
+    ],
+    "author": "kunnoh",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "eslint": "^8.45.0",
+        "eslint-config-prettier": "^8.8.0",
+        "nodemon": "^3.0.1",
+        "prettier": "^3.0.0"
+    }
+}
