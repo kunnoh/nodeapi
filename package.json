@@ -2,10 +2,11 @@
     "name": "nodeapi",
     "version": "1.0.0",
     "description": "nodejs ap",
-    "main": "index.js",
+    "type": "module",
+    "main": "server.js",
     "scripts": {
-        "dev": "nodemon index.js",
-        "start": "node index.js",
+        "dev": "nodemon server.js",
+        "start": "node server.js",
         "lint": "eslint .",
         "lint:fix": "eslint --fix .",
         "format": "prettier --check .",
@@ -23,7 +24,9 @@
     "dependencies": {
         "cors": "^2.8.5",
         "dotenv": "^16.3.1",
-        "express": "^4.18.2"
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.2",
+        "mongodb": "^6.1.0"
     },
     "devDependencies": {
         "eslint": "^8.45.0",

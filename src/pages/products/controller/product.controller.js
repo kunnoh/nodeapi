@@ -1,4 +1,4 @@
-const { getProduct, getProducts } = require('../services/poduct.service')
+const { getProduct, getProducts } = require('../../services/poduct.service')
 
 class ProductController {
     constructor() {}
